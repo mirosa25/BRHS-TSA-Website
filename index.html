@@ -3,38 +3,34 @@
 	<title> BRHS TSA Deparment </title>
 	<head>
 	<!-- Links to external resources that I used !-->
-	<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
-    <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+  	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script type='text/javascript' src='JavaScript.js'></script>
-	<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-	<script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-	<link rel="stylesheet" href="main.css">
-	<script src="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(jquery.sidr.min.js+jquery.sidr.js)"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(stylesheets/jquery.sidr.dark.min.css+stylesheets/jquery.sidr.light.min.css+stylesheets/jquery.sidr.bare.css+stylesheets/jquery.sidr.dark.css+stylesheets/jquery.sidr.light.css)">
-	</head>
+		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		<script src="//cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
+		<link rel="stylesheet" href="main.css">
+		<script src="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(jquery.sidr.min.js+jquery.sidr.js)"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(stylesheets/jquery.sidr.dark.min.css+stylesheets/jquery.sidr.light.min.css+stylesheets/jquery.sidr.bare.css+stylesheets/jquery.sidr.dark.css+stylesheets/jquery.sidr.light.css)">
+</head>
 	<body>
 
-		<!-- The menu I plan to make a button in the top middle. The problem is whenever I try, the click me ot reveal menu button is in the bottom. Anyway I appreciate the help! -->
-
-	<!--	<a id="simple-menu" href="#sidr">Toggle menu</a> -->
+<!--	<a id="simple-menu" href="#sidr">Toggle menu</a> -->
 
 		<div id="sidr">
-		  <!-- Your content -->
-		  <ul>
-		    <li><a href="#">List 1</a></li>
-		    <li class="active"><a href="#">List 2</a></li>
-		    <li><a href="#">List 3</a></li>
+			<ul>
+				<li> <a href="index.html"> Home </a> </li>
+				<li> <a href="MaterialsAndProcessing.html">Materials And Processing</a> </li>
+				<li> <a href="MechanicalArchitectualDrafting.html">Materials And Architectual Drafting</a> </li>
+				<li> <a href="Robotics.html">Robotics</a> </li>
+				<li><a href="#" onclick="$.sidr('close', 'sidr');return false;">Close Menu</a></li>
+
 		  </ul>
 		</div>
 
-		<script>
-		$(document).ready(function() {
-		  $('#simple-menu').sidr();
-		});
-		</script>
+
 
 	<div class="jumbotron">
 		<div class="container">
@@ -99,5 +95,14 @@
 			</div>
 		</div>
 		</div>
+
+
+
+
+		<script>
+		$(document).ready(function() {
+			$('#simple-menu').sidr();
+		});
+		</script>
 	</body>
 	</html>
