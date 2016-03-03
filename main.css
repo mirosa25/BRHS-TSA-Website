@@ -1,22 +1,10 @@
-.menulink {
-  text-align: center;
-  position: relative;
-
-}
-
-.MenuButton {
-  text-align: center;
-  margin: auto;
-
-}
-
 .jumbotron {
 background-image: url("Images/WoodShop.PNG");
 height: 700px;
 background-repeat: no-repeat;
 background-size: cover;
-
 }
+
 
 .jumbotron .container {
 position: relative;
