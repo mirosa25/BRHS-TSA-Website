@@ -15,18 +15,14 @@ top:100px;
 .jumbotron h1 {
 color: #fff ;
 font-family: 'Lobster', cursive ;
-font-weight: bold ;
-
-
-
+font-weight: bold;
+text-align: center;
 }
 
 .jumbotron p {
 color: #fff;
 font-family: 'Lobster', cursive;
 font-size: 30px ;
-
-
 }
 
 .extra-information {
