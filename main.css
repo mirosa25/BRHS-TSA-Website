@@ -1,8 +1,11 @@
 .jumbotron {
-background-image: url("Images/WoodShop.PNG");
-height: 700px;
-background-repeat: no-repeat;
+position: relative;
+background: #000 url("Images/WoodShop.PNG");
+width: 100%;
+height: 100%;
 background-size: cover;
+overflow: hidden;
+margin-top: 0px;
 }
 
 
@@ -38,5 +41,24 @@ font-family: 'Abel', sans-serif ;
 
 .extra-information p {
 margin-bottom: 20px;
+
+}
+
+.MenuButton {
+position:fixed
+top:0;
+left:0;
+width:100%;
+height:50px; /*  Change Me */
+}
+
+.MenuButton button {
+  width: 100%;
+  height: 60px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 0px;
 
 }

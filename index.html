@@ -15,15 +15,16 @@
 		<script src="bower_components\jquery.secretnav\dist\js\jquery.secretnav.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="bower_components\jquery.secretnav\dist\css\jquery.secretnav.css" />
 </head>
+
 	<body>
-
-
-
-
-
 <div id="sncontainer">
 
-	<a href="#" class="open" title="Click me to reveal the menu!">[open menu]</a>
+
+<div class="MenuButton">
+	<button type="button" class="btn btn-primary btn-lg open">Click me to navigate around the website.</button>
+
+</div>
+
 
 	<div class="jumbotron">
 		<div class="container">
@@ -91,16 +92,19 @@
 
 
 	<nav id="snav">
-					<a href="#">Link 1</a>
-					<a href="#">Link 2</a>
-			</nav>
+					<a href="index.html"> Home </a>
+					<a href="MaterialsAndProcessing.html">Materials And Processing</a>
+					<a href="MechanicalArchitectualDrafting.html">Materials And Architectual Drafting</a>
+					<a href="Robotics.html">Robotics</a>
+					<a href="AboutUs.html">About Us</a>
+	</nav>
 
 		<script>
 		$(function() {
 			$('#sncontainer').SecretNav({
 				navSelector: '#snav',
 				openSelector: '.open',
-				position: 'left'
+				position: 'top'
 			});
 		});
 		</script>
