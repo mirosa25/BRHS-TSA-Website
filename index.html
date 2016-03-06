@@ -11,30 +11,23 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
-		<script src="/cdn.jsdelivr.net/jquery.sidr/2.2.1/jquery.sidr.min.js"></script>
-		<script src="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(jquery.sidr.min.js+jquery.sidr.js)"></script>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/jquery.sidr@2.2.1(stylesheets/jquery.sidr.dark.min.css+stylesheets/jquery.sidr.light.min.css+stylesheets/jquery.sidr.bare.css+stylesheets/jquery.sidr.dark.css+stylesheets/jquery.sidr.light.css)">
+		<script src="bower_components\modernizr\modernizr.js"></script>
+		<script src="bower_components\jquery.secretnav\dist\js\jquery.secretnav.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bower_components\jquery.secretnav\dist\css\jquery.secretnav.css" />
 </head>
 	<body>
 
-<!--	<a id="simple-menu" href="#sidr">Toggle menu</a> -->
-		<div id="sidr">
-			<ul>
-				<li> <a href="index.html"> Home </a> </li>
-				<li> <a href="MaterialsAndProcessing.html">Materials And Processing</a> </li>
-				<li> <a href="MechanicalArchitectualDrafting.html">Materials And Architectual Drafting</a> </li>
-				<li> <a href="Robotics.html">Robotics</a> </li>
-				<li><a href="#" onclick="$.sidr('close', 'sidr');return false;">Close Menu</a></li>
-
-		  </ul>
-		</div>
 
 
+
+
+<div id="sncontainer">
+
+	<a href="#" class="open" title="Click me to reveal the menu!">[open menu]</a>
 
 	<div class="jumbotron">
 		<div class="container">
 		<h1>One of the most diverse courses available in the Tech Ed Deparment</h1>
-				<a id="simple-menu" href="#sidr"><span style="font-family: Lobster; font-face: bold;">Click Here to see all our Deparments!</span></a>
 		</div>
 	</div>
 
@@ -97,9 +90,18 @@
 
 
 
+	<nav id="snav">
+					<a href="#">Link 1</a>
+					<a href="#">Link 2</a>
+			</nav>
+
 		<script>
-		$(document).ready(function() {
-			$('#simple-menu').sidr();
+		$(function() {
+			$('#sncontainer').SecretNav({
+				navSelector: '#snav',
+				openSelector: '.open',
+				position: 'left'
+			});
 		});
 		</script>
 	</body>
