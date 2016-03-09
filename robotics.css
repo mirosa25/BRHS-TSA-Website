@@ -44,3 +44,22 @@ font-family: 'Abel', sans-serif ;
 margin-bottom: 20px;
 
 }
+
+.MenuButton button {
+  width: 100%;
+  height: 60px;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  margin-bottom: 0px;
+}
+
+
+.VideoSection {
+  width: 100%;
+  length: 100px;
+  margin-top: 20px;
+
+
+}
