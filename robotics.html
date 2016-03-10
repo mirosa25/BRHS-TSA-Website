@@ -8,10 +8,12 @@
 		<link rel="stylesheet" href="robotics.css">
 		<script type='text/javascript' src='JavaScript.js'></script>
   	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
 		<script src="bower_components\modernizr\modernizr.js"></script>
+		<script src="bower_components\fitvids\jquery.fitvids.js"></script>
 		<script src="bower_components\jquery.secretnav\dist\js\jquery.secretnav.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="bower_components\jquery.secretnav\dist\css\jquery.secretnav.css" />
 </head>
@@ -69,20 +71,12 @@
 	</div>
 
 
-<div class="Videos">
-	<div class="row">
-		<div class="container">
-		<div class="col-md-6">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/KRC6n5BqczY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-		</div>
-
-		<div class="col-md-6">
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/FSqkITv2XHY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
-		</div>
+	<div class="RoboticsArenaVideoArea">
+		<h3 class="RoboticsArenaHeader"> Why not see our robotics tournament!! </h3>
+	<div class="Video-Container">
+	<iframe class="Video" width="1110" height="500" src="https://www.youtube.com/embed/FSqkITv2XHY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 	</div>
-
+</div>
 
 
 	<div class="extra-information">
@@ -124,6 +118,8 @@
 				openSelector: '.open',
 				position: 'top'
 			});
+
+			$("#Video-Container").fitVids();
 		});
 		</script>
 	</body>

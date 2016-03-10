@@ -63,9 +63,12 @@ height:50px; /*  Change Me */
 
 }
 
-.Videos {
-padding-top: 10px;
-padding-bottom: 50px;
 
 
+.Video {
+  text-align: center;
+}
+
+.RoboticsArenaHeader {
+font-family: Dosis;
 }
