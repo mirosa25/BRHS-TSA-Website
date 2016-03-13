@@ -111,3 +111,8 @@ background-color: #f7f7f7;
 .RoboticsArenaHeader {
 font-family: Dosis;
 }
+
+.TeacherContainer {
+
+  border-top: 2px solid black;
+}
