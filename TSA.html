@@ -1,0 +1,118 @@
+
+<html>
+	<title> BRHS TSA Deparment </title>
+	<head>
+	<!-- Links to external resources that I used !-->
+		<link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
+  	<link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+		<link rel="stylesheet" href="TSA.css">
+		<script type='text/javascript' src='JavaScript.js'></script>
+  	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Abel' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+		<script src="bower_components\modernizr\modernizr.js"></script>
+		<script src="bower_components\fitvids\jquery.fitvids.js"></script>
+		<script src="bower_components\jquery.secretnav\dist\js\jquery.secretnav.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="bower_components\jquery.secretnav\dist\css\jquery.secretnav.css" />
+</head>
+	<body>
+<div id="sncontainer">
+
+
+<div class="MenuButton">
+	<button type="button" class="btn btn-primary btn-lg open">Click me to navigate around the website.</button>
+
+</div>
+
+
+	<div class="jumbotron">
+		<div class="container">
+		<h1>The one club to have it all...</h1>
+		</div>
+	</div>
+
+	<div class="Course_pics">
+		<div class="container">
+			<div class="col-md-4">
+				<div class="thumbnail">
+				<img id="Photo" src="Images/TSACabinet.jpg"/>
+				</div>
+
+				<div class="thumbnail">
+				<img id="Photo" src="Images/TSARobot.jpg"/>
+				</div>
+
+			</div>
+
+			<div class="col-md-4">
+				<div class="thumbnail">
+				<img id="Photo" src="Images/TSATrophies.jpg">
+				</div>
+				<div class="thumbnail">
+				<img id="Photo" src="http://ima.gs/Placeholder-400x200.png"/>
+				</div>
+
+			</div>
+			<div class="col-md-4">
+				<div class="thumbnail">
+					<img id="Photo" src="http://ima.gs/Placeholder-400x200.png">
+				</div>
+				<div class="thumbnail">
+				<img id="Photo" src="http://ima.gs/Placeholder-400x200.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+	<div class="extra-information">
+		<div class="container">
+		 <div class="row">
+			<div class="col-md-4">
+				<h3>A chance to learn:</h3>
+				<p> You can learn many new skills such as the use of AUTOCAD or even building a robot!</p>
+				</div>
+			<div class="col-md-4">
+			<h3>A student driven group:</h3>
+				<p>Did you know the club is run by stidents? Once of the main differences in the TSA club is the club is run by students allowing a more sense of working with your peers.</p>
+				</div>
+			<div class="col-md-4">
+			<h3>A chance further your skills:</h3>
+			<p>You might be good at a school but with this club you can get even better by practicing the skills you know while improving upon them.</p>
+					</div>
+				</div>
+
+					</div>
+				</div>
+					</div>
+
+
+			<!-- End Of Body Container -->
+
+
+
+	<nav id="snav">
+					<a href="index.html">Materials & Processing</a>
+					<a href="MechanicalArchitectualDrafting.html">Materials & Architectual Drafting</a>
+					<a href="Robotics.html">Robotics</a>
+					<a href="TSA.html">TSA</a>
+					<a href="AboutUs.html">About Us</a>
+	</nav>
+
+		<script>
+		$(function() {
+			$('#sncontainer').SecretNav({
+				navSelector: '#snav',
+				openSelector: '.open',
+				position: 'top'
+			});
+		});
+		</script>
+	</body>
+	</html>
