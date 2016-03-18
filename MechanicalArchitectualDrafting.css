@@ -1,6 +1,6 @@
 .jumbotron {
 position: relative;
-background: #000 url("Images/WoodShop.jpg");
+background: #000 url("Images/ROBOTICSKIDS.PNG");
 width: 100%;
 height: 100%;
 background-size: cover;
@@ -28,11 +28,7 @@ font-family: 'Lobster', cursive;
 font-size: 30px ;
 }
 
-.extra-information {
-background-color: #f7f7f7;
 
-
-}
 
 .extra-information h3 {
 font-family: 'Abel', sans-serif ;
@@ -61,4 +57,16 @@ height:50px; /*  Change Me */
   border-bottom-left-radius: 0px;
   margin-bottom: 0px;
 
+}
+
+
+
+
+
+
+
+
+
+.Center {
+  text-align: center;
 }
