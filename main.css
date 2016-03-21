@@ -62,3 +62,9 @@ height:50px; /*  Change Me */
   margin-bottom: 0px;
 
 }
+
+.Center {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -98,7 +98,7 @@ background-color: #f7f7f7;
 
 
 .SullyQuestion {
-  font-family: "Poiret One";
+  font-family: 'Abel', sans-serif ;
 }
 
 .SullyAnswer {
@@ -113,12 +113,17 @@ font-family: Dosis;
 }
 
 .TeacherContainer {
-
-  border-top: 2px solid black;
+  background-color: #f7f7f7;
 }
 
 #SullyFact {
   list-style-type:none;
+  font-family: "Poiret One";
+  font-size: 20px;
 
+}
+
+#SullyFactsHeader {
+  font-family: 'Abel', sans-serif ;
 
 }
