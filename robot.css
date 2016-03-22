@@ -111,23 +111,3 @@ background-color: #f7f7f7;
 .RoboticsArenaHeader {
 font-family: Dosis;
 }
-
-.TeacherContainer {
-  background-color: #f7f7f7;
-}
-
-#SullyFact {
-  list-style-type:none;
-  font-family: "Poiret One";
-  font-size: 20px;
-
-}
-
-#SullyFactsHeader {
-  font-family: 'Abel', sans-serif ;
-
-}
-
-.ClassesInfo {
-  text-align: center;
-}
