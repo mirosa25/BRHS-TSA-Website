@@ -68,3 +68,43 @@ height:50px; /*  Change Me */
   margin-left: auto;
   margin-right: auto;
 }
+
+
+
+.SullyPicContainer {
+
+  margin: auto;
+  text-align: center;
+}
+
+
+#SullyPic {
+  border-radius: 50%;
+
+
+}
+
+.SullyQuestion {
+  font-family: 'Abel', sans-serif ;
+}
+
+.SullyAnswer {
+  font-family: "Poiret One";
+}
+
+li {
+  list-style-type:none;
+  font-family: "Poiret One";
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#FancyBoldFont {
+  font-family: 'Abel', sans-serif ;
+}
+
+.ParagraphFont {
+  font-family: 'Poiret One';
+  font-size: 20px;
+}
